@@ -1,0 +1,21 @@
+* {
+  color: rebeccapurple;
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity 0.3s;
+}
+
+.page-enter, .page-leave-active {
+  opacity: 0;
+}
+
+.paper-enter-active, .paper-leave-active {
+  transition: all 0.3s;
+  font-size: 16px;
+}
+
+.paper-enter, .paper-leave-active {
+  opacity: 0;
+  font-size: 20px;
+}
